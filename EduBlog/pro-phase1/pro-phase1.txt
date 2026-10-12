@@ -1,0 +1,102 @@
+.Project Title (Novel & Impactful):
+
+EduBlog: A Beginner-Friendly SDG 4 Blog for Front-End Learning and Digital Literacy.
+
+.Problem Definition
+
+In the era of digital transformation, there is a growing need for accessible, inclusive, and foundational educational platforms that help beginners — especially students in under-resourced regions — learn essential web development skills. Traditional learning portals often require prior knowledge or paid access, and many fail to deliver content aligned with Sustainable Development Goal 4 (SDG 4): Quality Education.
+
+Furthermore, there is a lack of unified, beginner-oriented platforms that offer interactive and readable content covering HTML, CSS, JavaScript, accessibility, and responsive design — all in one place and optimized for various devices and learners' needs.
+
+.Existing Work / Literature Survey
+
+There are numerous learning platforms like:
+
+    W3Schools, MDN Web Docs, and freeCodeCamp: excellent resources but often overwhelming for complete beginners.
+
+    Blogs and Tutorials: scattered and vary in quality, often lack structure or SDG focus.
+
+    MOOCs (e.g., Coursera, Udemy): require registration and are often paywalled or non-beginner-friendly.
+
+None of these platforms combine simplicity, SDG 4 alignment, interactivity, and responsive design in a lightweight, purely front-end format built for offline use or low-resource devices. EduBlog fills this specific gap.
+
+.Objectives of the Project
+
+EduBlog is created to fulfill the following objectives:
+
+     Introduce foundational front-end web development concepts: HTML, CSS, JavaScript, Responsive Design, and Accessibility.
+
+    Promote SDG 4 – Quality Education by ensuring educational resources are:
+
+        Free
+
+        Inclusive
+
+        Beginner-friendly
+
+        Accessible and mobile-optimized
+
+     Implement a login/signup system to simulate basic user interaction flow.
+
+     Enable real-time search and commenting functionality to foster interactivity.
+
+    Offer a theme toggle (light/dark mode) for visual customization and accessibility.
+
+     Clarity of Presentation
+
+The EduBlog system demonstrates excellent clarity through:
+
+UI/UX Design
+
+    Visually attractive color themes using a clean aqua palette and readable fonts
+
+    Intuitive navigation and minimalistic card-style blog previews
+
+    Fully responsive layout using modern CSS media queries
+
+Code Structure
+
+    Modular organization of HTML files (each topic is a separate page)
+
+    Clean, maintainable CSS (style.css) with variables and reusable classes
+
+    Functional JS (script.js) that manages login logic, search filtering, theme toggling, and commenting
+
+Educational Focus
+
+Each blog page (e.g., html.html, css.html, javascript.html, responsive.html, accessibility.html) is:
+
+    Well-written and concise
+
+    Uses semantic structure with headings, lists, and code examples
+
+    Concludes with the message of inclusive education, directly linking content to SDG 4 Allow learners to post comments and engage with content.
+
+.Scope of the Project
+
+EduBlog is a purely front-end application, making it easy to deploy, modify, and use even without a backend or database. The scope includes:
+Core Features
+
+    A polished home page with hero section, search, and user authentication simulation
+
+    Well-structured individual blog pages (e.g., HTML, CSS, JS, Responsive Design, Accessibility)
+
+    A fully styled comment section for feedback and interaction
+
+    Responsive layouts and mobile optimization
+
+    Aesthetic and accessible dark/light theme switching
+
+    Blog list visibility only upon search input, reducing clutter and encouraging exploration
+
+.Future Enhancements
+
+    Backend integration for persistent user data
+
+    Role-based access (admin/editor)
+
+    Blog creation and publishing by users
+
+    User profile dashboard.
+
+.

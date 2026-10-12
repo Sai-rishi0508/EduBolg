@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Accessibility – EduBlog</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #fdfdfd;
+      color: #222;
+      margin: 0;
+      padding: 30px;
+      line-height: 1.8;
+      max-width: 800px;
+      margin-inline: auto;
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 25px;
+      color: #333;
+    }
+
+    p {
+      margin: 15px 0;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 30px;
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    .icon {
+      color: #007bff;
+      margin-right: 8px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1><i class="fas fa-universal-access icon"></i>Web Accessibility</h1>
+  <p><strong>Web accessibility</strong> means making websites usable by everyone, including people with disabilities. This includes those with visual, auditory, physical, speech, cognitive, and neurological challenges. Accessibility ensures that digital content is inclusive and available to all — a direct contribution to <strong>SDG 4: Quality Education</strong>, which promotes equitable learning opportunities.</p>
+
+  <h2>Why Accessibility Matters</h2>
+  <p>According to the World Health Organization, over 1 billion people globally experience some form of disability. For many of them, accessing a website with poorly implemented design is not just difficult — it’s impossible. By prioritizing accessibility, we break down barriers and create digital spaces that respect human rights and dignity.</p>
+
+  <h2>Core Principles (POUR)</h2>
+  <p>Web accessibility is guided by four key principles, defined by the WCAG (Web Content Accessibility Guidelines):</p>
+  <ul>
+    <li><strong>Perceivable:</strong> Information must be presented in ways users can perceive (e.g., text alternatives for images).</li>
+    <li><strong>Operable:</strong> Interface must be usable via keyboard or screen reader, not just a mouse.</li>
+    <li><strong>Understandable:</strong> Users must be able to understand the content and UI.</li>
+    <li><strong>Robust:</strong> Content must work reliably across technologies, devices, and assistive tools.</li>
+  </ul>
+
+  <h2>Common Accessibility Features</h2>
+  <ul>
+    <li><strong>Alt Text:</strong> Descriptive text for images so screen readers can narrate them</li>
+    <li><strong>Keyboard Navigation:</strong> All elements should be reachable without a mouse</li>
+    <li><strong>Contrast Ratios:</strong> Text must have sufficient contrast against the background</li>
+    <li><strong>ARIA Labels:</strong> Help screen readers interpret content structure</li>
+    <li><strong>Skip Links:</strong> Allow users to skip repetitive navigation to reach main content</li>
+  </ul>
+
+  <h2>Testing Accessibility</h2>
+  <p>Tools like Google Lighthouse, WAVE, and Axe can audit your website’s accessibility. Most modern browsers also provide accessibility inspection tools. You can also test by navigating a website using only a keyboard (Tab, Enter, Esc) or by using a screen reader like NVDA or VoiceOver.</p>
+
+  <h2>Accessibility and Education</h2>
+  <p>In an educational context, inaccessibility can exclude entire groups of learners. Students who rely on assistive technologies need websites that are properly marked up and navigable. Making a site accessible means making it inclusive — ensuring that quality education truly is available to all, regardless of ability.</p>
+
+  <h2>Best Practices</h2>
+  <ul>
+    <li>Always use semantic HTML (e.g., <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>)</li>
+    <li>Provide meaningful link text (avoid “click here”)</li>
+    <li>Label form fields clearly with <code>&lt;label&gt;</code> elements</li>
+    <li>Don’t rely solely on color to convey information</li>
+    <li>Ensure headings follow a logical structure (e.g., <code>h1 → h2 → h3</code>)</li>
+  </ul>
+
+  <h2>Conclusion</h2>
+  <p>Web accessibility isn’t just a nice-to-have — it’s a necessity. It ensures equal digital rights, fosters inclusion, and helps bridge the education gap for learners with disabilities. By designing with accessibility in mind, you’re not only improving user experience — you’re advancing human rights and contributing directly to SDG 4: Quality Education for All.</p>
+
+  <a class="back-link" href="../index.html"><i class="fas fa-arrow-left"></i> Back to Blog</a>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JavaScript Essentials – EduBlog</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #fdfdfd;
+      color: #222;
+      margin: 0;
+      padding: 30px;
+      line-height: 1.8;
+      max-width: 800px;
+      margin-inline: auto;
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 25px;
+      color: #333;
+    }
+
+    p {
+      margin: 15px 0;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 30px;
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    .icon {
+      color: #007bff;
+      margin-right: 8px;
+    }
+
+    pre {
+      background: #f1f1f1;
+      padding: 10px;
+      overflow-x: auto;
+      border-left: 4px solid #007bff;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1><i class="fas fa-magic icon"></i>JavaScript Essentials</h1>
+  <p><strong>JavaScript</strong> is the programming language of the web. While HTML structures a page and CSS styles it, JavaScript makes it interactive. It powers features like dropdowns, sliders, dynamic content updates, and even complex applications like video editors, games, and real-time chat.</p>
+
+  <h2>What is JavaScript?</h2>
+  <p>JavaScript is a scripting language that runs in the browser. It allows developers to manipulate the Document Object Model (DOM) — essentially, the live version of the web page — and respond to events like clicks, scrolls, or form submissions. JavaScript is essential to building modern, user-friendly websites and web applications.</p>
+
+  <h2>Why You Should Learn JavaScript</h2>
+  <p>In the age of digital transformation, interactive content is key to user engagement. JavaScript lets you build apps that respond in real-time without reloading the page. This level of interactivity is critical in e-learning platforms, games, simulations, and other educational tools — directly supporting <strong>SDG 4: Quality Education</strong>.</p>
+
+  <h2>Basic Syntax and Concepts</h2>
+  <p>JavaScript uses variables, functions, conditions, loops, and events. Here’s a simple example:</p>
+  <pre><code>let name = "Rishi";
+console.log("Hello, " + name);</code></pre>
+
+  <p>You can add interactivity by selecting elements and responding to user actions:</p>
+  <pre><code>document.getElementById("btn").addEventListener("click", () => {
+  alert("Button clicked!");
+});</code></pre>
+
+  <h2>DOM Manipulation</h2>
+  <p>The DOM is the page’s live HTML structure. You can use JavaScript to:</p>
+  <ul>
+    <li>Change content or styles dynamically</li>
+    <li>Hide/show elements</li>
+    <li>Validate forms before submission</li>
+    <li>Create elements on the fly</li>
+  </ul>
+
+  <h2>Popular JavaScript Uses</h2>
+  <ul>
+    <li>Image sliders and carousels</li>
+    <li>Form validation</li>
+    <li>Theme switching (light/dark)</li>
+    <li>Modal popups</li>
+    <li>Single-page applications (SPAs)</li>
+  </ul>
+
+  <h2>Getting Started</h2>
+  <p>You can begin learning JavaScript using free resources like Mozilla Developer Network (MDN), freeCodeCamp, and JavaScript.info. Start small by adding simple interactivity, then move on to more advanced concepts like arrays, objects, and APIs.</p>
+
+  <h2>Conclusion</h2>
+  <p>JavaScript is a must-learn language for anyone interested in web development. It adds life to static pages and enables the creation of dynamic, engaging experiences. Learning JavaScript not only enhances your technical skillset but also contributes to building inclusive and quality education platforms, helping close the digital divide outlined in SDG 4.</p>
+
+  <a class="back-link" href="../index.html"><i class="fas fa-arrow-left"></i> Back to Blog</a>
+</body>
+</html>

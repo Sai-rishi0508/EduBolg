@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduBlog – SDG 4: Quality Education</title>
+
+  <!-- Favicon: Web symbol -->
+  <link rel="icon" href="https://img.icons8.com/color/48/000000/internet.png" type="image/png" />
+
+  <!-- Font & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo"><i class="fas fa-globe"></i> EduBlog</div>
+    <div class="actions">
+      <input type="text" id="searchInput" placeholder="Search topics... 🔍" />
+      <button id="toggleMode"><i id="toggleIcon" class="fas fa-moon"></i></button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Empowering Through Education</h1>
+    <p>Promoting Sustainable Development Goal 4: Inclusive and Quality Education</p>
+  </section>
+
+  <!-- Auth Section -->
+  <section id="authSection">
+    <div class="tabs">
+      <button onclick="toggleForm('login')"><i class="fas fa-sign-in-alt"></i> Login</button>
+      <button onclick="toggleForm('signup')"><i class="fas fa-user-plus"></i> Signup</button>
+    </div>
+    <div id="authForms">
+      <input type="text" id="username" placeholder="Username" />
+      <input type="password" id="password" placeholder="Password" />
+      <button onclick="handleAuth()"><i class="fas fa-check-circle"></i> Submit</button>
+    </div>
+    <p id="welcomeUser"></p>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section">
+    <h2><i class="fas fa-info-circle"></i> About EduBlog</h2>
+    <p>
+      <strong>EduBlog</strong> is a beginner-friendly blog platform designed to promote
+      <strong>SDG 4 – Quality Education</strong>. It introduces essential front-end web development
+      topics like HTML, CSS, JavaScript, responsive design, and accessibility — all explained
+      in simple, digestible language.
+    </p>
+    <p>
+      Use the search bar above <i class="fas fa-search"></i> to discover blog topics and articles.
+    </p>
+  </section>
+
+  <!-- Blog Topics (Hidden by Default) -->
+  <section class="blog-section" id="blogList" style="display: none;">
+    <div class="blog-card">
+      <h2><i class="fas fa-code"></i> <a href="posts/html.html" target="_blank">Learn HTML</a></h2>
+      <p>Structure the web using markup language.</p>
+    </div>
+    <div class="blog-card">
+      <h2><i class="fas fa-paint-brush"></i> <a href="css.html" target="_blank">CSS for Beginners</a></h2>
+      <p>Style your web pages with design and layout.</p>
+    </div>
+    <div class="blog-card">
+      <h2><i class="fas fa-magic"></i> <a href="posts/javascript.html" target="_blank">JavaScript Essentials</a></h2>
+      <p>Make your website interactive and responsive.</p>
+    </div>
+    <div class="blog-card">
+      <h2><i class="fas fa-mobile-alt"></i> <a href="responsive.html" target="_blank">Responsive Design</a></h2>
+      <p>Make your website look great on all screen sizes.</p>
+    </div>
+    <div class="blog-card">
+      <h2><i class="fas fa-universal-access"></i> <a href="accessibility.html" target="_blank">Web Accessibility</a></h2>
+      <p>Design for everyone, including users with disabilities.</p>
+    </div>
+  </section>
+
+  <!-- Comment Section -->
+  <section class="comments">
+    <h3><i class="fas fa-comments"></i> Post a Comment</h3>
+    <textarea id="commentInput" placeholder="Your comment..."></textarea><br />
+    <button onclick="postComment()"><i class="fas fa-paper-plane"></i> Post</button>
+    <div id="commentSection"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>EduBlog © 2025 | Empowering Education through Web Development</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
